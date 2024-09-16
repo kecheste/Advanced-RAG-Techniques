@@ -16,7 +16,7 @@ from utils import get_prebuilt_trulens_recorder
 
 llm = Gemini(model="models/gemini-pro", temperature=0.1)
 documents = SimpleDirectoryReader(
-    input_files=["./eBook-How-to-Build-a-Career-in-AI.pdf"]
+    input_files=["./Summary.pdf"]
 ).load_data()
 document = Document(text="\n\n".join([doc.text for doc in documents]))
 

@@ -61,7 +61,7 @@ Settings.embed_model = embed_model
 Settings.text_splitter = text_splitter
 
 documents = SimpleDirectoryReader(
-    input_files=["./IPCC_AR6_WGII_Chapter03.pdf"]
+    input_files=["./Summary.pdf"]
 ).load_data()
 
 nodes = node_parser.get_nodes_from_documents(documents)
