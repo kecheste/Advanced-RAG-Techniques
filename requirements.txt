@@ -1,0 +1,9 @@
+dotenv
+llama-index
+sentence-transformers
+transformers
+trulens_eval
+nest_asyncio
+numpy
+pandas
+openai
